@@ -12,9 +12,10 @@
 - Update timezone / time settings:
    <br> **~# dpkg-reconfigure tzdata && apt-get install ntp -y**<br>
    <br> *If there is a "setting locale failed" message, open the /etc/default/locale and add*
-        >LANG="en_US.UTF-8" <br>
-        >LC_ALL="en_US.UTF-8"<br>
-        >LANGUAGE="en_US.UTF-8"<br>
+
+        LANG="en_US.UTF-8" <br>
+        LC_ALL="en_US.UTF-8"<br>
+        LANGUAGE="en_US.UTF-8"<br>
 
 - Add user:
     <br> **~# adduser *username***
